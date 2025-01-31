@@ -10,9 +10,8 @@ We demonstrate SliceGXQ, an end-to-end declarative-style system that supports SP
 
 # Demo Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can watch the demo video directly [here](https://your-username.github.io/your-repo/).
 
-You can [click here to watch the video](https://youtu.be/gJA2nb_ue6A?si=G0E340uGXJ_UTwdl).
 
 # Usage
 
