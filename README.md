@@ -8,16 +8,30 @@ We demonstrate SliceGXQ, an end-to-end declarative-style system that supports SP
 
 ![screenshot](screenshot.png)
 
-## Demo Video
+
+欢迎来到项目的介绍页面！以下内容包括项目的演示视频及相关论文链接，帮助您更好地了解项目。
+
+---
+
+## 🎥 **Demo Video**
+
+点击下方图片观看演示视频：
 
 [![Watch the video](https://img.youtube.com/vi/gJA2nb_ue6A/0.jpg)](https://www.youtube.com/watch?v=gJA2nb_ue6A)
 
-Click the image or [here to watch the demo video on YouTube](https://www.youtube.com/watch?v=gJA2nb_ue6A).
+或者直接点击链接：  
+[🔗 Watch the demo video on YouTube](https://www.youtube.com/watch?v=gJA2nb_ue6A)
 
+---
 
-## Paper
+## 📄 **Paper**
 
-[Click here to view the paper](https://github.com/Hai0709/SliceGXQ/raw/main/SliceGXQ.pdf)
+访问项目的完整论文：
+
+[![View the paper](https://img.shields.io/badge/-View%20Paper-blue?style=for-the-badge)](https://github.com/Hai0709/SliceGXQ/raw/main/SliceGXQ.pdf)
+
+---
+
 
 
 
