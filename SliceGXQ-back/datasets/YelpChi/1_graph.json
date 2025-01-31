@@ -1,0 +1,1307 @@
+{
+    "description": "Graph data from YelpChi dataset",
+    "nodes": [
+        {
+            "id": "Node 0",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 1",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 2",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 3",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 4",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 5",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 6",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 7",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 8",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 9",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 10",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 11",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 12",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 13",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 14",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 15",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 16",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 17",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 18",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 19",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 20",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 21",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 22",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 23",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 24",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 25",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 26",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 27",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 28",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 29",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 30",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 31",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 32",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 33",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 34",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 35",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 36",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 37",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 38",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 39",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 40",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 41",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 42",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 43",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 44",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 45",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 46",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 47",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 48",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 49",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 50",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 51",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 52",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 53",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 54",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 55",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 56",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 57",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 58",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 59",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 60",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 61",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 62",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 63",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 64",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 65",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 66",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 67",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 68",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 69",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 70",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 71",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 72",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 73",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 74",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 75",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 76",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 77",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 78",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 79",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 80",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 81",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 82",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 83",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 84",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 85",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 86",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 87",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 88",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 89",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 90",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 91",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 92",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 93",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 94",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 95",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 96",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 97",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 98",
+            "value": 0,
+            "color": "#FF5733"
+        },
+        {
+            "id": "Node 99",
+            "value": 0,
+            "color": "#FF5733"
+        }
+    ],
+    "links": [
+        {
+            "source": "Node 3",
+            "target": "Node 5"
+        },
+        {
+            "source": "Node 4",
+            "target": "Node 1"
+        },
+        {
+            "source": "Node 5",
+            "target": "Node 3"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 8",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 12",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 13",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 16",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 17",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 19",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 20",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 21",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 26",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 32",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 43",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 51",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 53",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 62",
+            "target": "Node 7"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 13",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 14",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 16",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 24",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 29",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 31",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 38",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 46",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 56",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 59",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 22",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 35",
+            "target": "Node 9"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 16"
+        },
+        {
+            "source": "Node 7",
+            "target": "Node 16"
+        },
+        {
+            "source": "Node 8",
+            "target": "Node 16"
+        },
+        {
+            "source": "Node 9",
+            "target": "Node 16"
+        },
+        {
+            "source": "Node 10",
+            "target": "Node 16"
+        },
+        {
+            "source": "Node 17",
+            "target": "Node 16"
+        },
+        {
+            "source": "Node 50",
+            "target": "Node 16"
+        },
+        {
+            "source": "Node 54",
+            "target": "Node 16"
+        },
+        {
+            "source": "Node 61",
+            "target": "Node 16"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 32",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 40",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 41",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 42",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 43",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 23"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 19",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 40",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 41",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 42",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 54",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 25"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 19",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 40",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 41",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 42",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 54",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 27"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 31",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 38",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 40",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 41",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 42",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 28"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 40",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 41",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 42",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 61",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 34"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 12",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 40",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 41",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 42",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 36"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 29",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 32",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 40",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 41",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 42",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 51",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 62",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 37"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 10",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 14",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 20",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 41",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 42",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 40"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 31",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 38",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 40",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 42",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 41"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 40",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 41",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 52",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 53",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 55",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 56",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 64",
+            "target": "Node 42"
+        },
+        {
+            "source": "Node 6",
+            "target": "Node 52"
+        },
+        {
+            "source": "Node 23",
+            "target": "Node 52"
+        },
+        {
+            "source": "Node 25",
+            "target": "Node 52"
+        },
+        {
+            "source": "Node 26",
+            "target": "Node 52"
+        },
+        {
+            "source": "Node 27",
+            "target": "Node 52"
+        },
+        {
+            "source": "Node 28",
+            "target": "Node 52"
+        },
+        {
+            "source": "Node 34",
+            "target": "Node 52"
+        },
+        {
+            "source": "Node 36",
+            "target": "Node 52"
+        },
+        {
+            "source": "Node 37",
+            "target": "Node 52"
+        }
+    ]
+}

@@ -1,0 +1,312 @@
+<template>
+  <div class="datasets">
+    <div class="title" @click="toggleExpand">
+      <span class="icon">📚</span>
+      <span class="selected-text">{{ selectedDataset || "Datasets" }}</span>
+      <span class="expand" :class="{ 'is-expanded': isExpanded }">^</span>
+      <div class="dropdown-list" v-show="isExpanded">
+        <div
+          v-for="dataset in datasetList"
+          :key="dataset.id"
+          class="dropdown-item"
+          :class="{ active: selectedDataset === dataset.name }"
+          @click="selectDataset(dataset)"
+        >
+          {{ dataset.name }}
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="graph-view">
+        <div class="search">
+          <input type="text" placeholder="search for node id..." />
+        </div>
+        <!-- 这里需要集成图形库，如 ECharts 或 D3.js -->
+      </div>
+      <div class="info">
+        <h3>Datasets Information</h3>
+        <div class="description">
+          <div class="description-box">
+            <!-- <h4>Description:</h4> -->
+            <span>Description：</span>
+            <!-- 这里可以添加实际的描述内容 -->
+          </div>
+        </div>
+        <div class="statistics">
+          <h4>Quantitative Statistics</h4>
+          <div class="charts">
+            <div class="chart-item">
+              <h5>Class</h5>
+              <div ref="pieChartRef" class="pie-chart"></div>
+            </div>
+            <div class="chart-item">
+              <h5>Pattern</h5>
+              <div ref="barChartRef" class="bar-chart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+//----------------下面是前端数据集展示和查询的代码-------------------------------//
+<script setup lang="ts">
+import { ref, onMounted, onUnmounted } from "vue";
+import * as echarts from "echarts";
+
+const isExpanded = ref(false);
+const selectedDataset = ref("");
+
+// 模拟数据，实际应该从API获取
+const datasetList = ref([
+  { id: 1, name: "Dataset 1" },
+  { id: 2, name: "Dataset 2" },
+  { id: 3, name: "Dataset 3" },
+  { id: 4, name: "Dataset 4" },
+]);
+
+const toggleExpand = () => {
+  isExpanded.value = !isExpanded.value;
+};
+
+const selectDataset = (dataset: { id: number; name: string }) => {
+  selectedDataset.value = dataset.name;
+  isExpanded.value = false;
+  // TODO: 处理数据集选择后的逻辑
+};
+
+//----------------------下面是饼图和柱状图的展示和查询的代码---------------------//
+
+// 图表实例引用
+const pieChartRef = ref<HTMLElement | null>(null);
+const barChartRef = ref<HTMLElement | null>(null);
+let pieChart: echarts.ECharts | null = null;
+let barChart: echarts.ECharts | null = null;
+
+// 初始化饼图
+const initPieChart = () => {
+  if (!pieChartRef.value) return;
+
+  pieChart = echarts.init(pieChartRef.value);
+  const option = {
+    tooltip: {
+      trigger: "item",
+    },
+    series: [
+      {
+        type: "pie",
+        radius: "70%",
+        data: [
+          { value: 60, name: "Class A" },
+          { value: 40, name: "Class B" },
+        ],
+        emphasis: {
+          itemStyle: {
+            shadowBlur: 10,
+            shadowOffsetX: 0,
+            shadowColor: "rgba(0, 0, 0, 0.5)",
+          },
+        },
+      },
+    ],
+  };
+  pieChart.setOption(option);
+};
+
+// 初始化柱状图
+const initBarChart = () => {
+  if (!barChartRef.value) return;
+
+  barChart = echarts.init(barChartRef.value);
+  const option = {
+    tooltip: {
+      trigger: "axis",
+      axisPointer: {
+        type: "shadow",
+      },
+    },
+    xAxis: {
+      type: "category",
+      data: ["Pattern 1", "Pattern 2", "Pattern 3"],
+      axisLabel: {
+        interval: 0,
+      },
+    },
+    yAxis: {
+      type: "value",
+    },
+    series: [
+      {
+        data: [120, 200, 150],
+        type: "bar",
+      },
+    ],
+  };
+  barChart.setOption(option);
+};
+
+// 监听窗口大小变化
+const handleResize = () => {
+  pieChart?.resize();
+  barChart?.resize();
+};
+
+onMounted(() => {
+  initPieChart();
+  initBarChart();
+  window.addEventListener("resize", handleResize);
+});
+
+onUnmounted(() => {
+  pieChart?.dispose();
+  barChart?.dispose();
+  window.removeEventListener("resize", handleResize);
+});
+</script>
+
+<style scoped lang="less">
+.datasets {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative; // 添加相对定位
+
+  .title {
+    position: relative;
+    padding: 15px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px 8px 0 0;
+
+    .selected-text {
+      flex: 1;
+    }
+
+    .expand {
+      transition: transform 0.3s ease;
+
+      &.is-expanded {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #eee;
+    border-top: none;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+    .dropdown-item {
+      color: #000;
+      padding: 10px 15px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: #f5f5f5;
+      }
+
+      &.active {
+        background-color: #e6f7ff;
+      }
+    }
+  }
+
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search {
+    padding: 10px;
+
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+  }
+
+  .graph-view {
+    flex: 1;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin: 10px;
+  }
+
+  .info {
+    padding: 15px;
+
+    h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+
+    .description {
+      margin-bottom: 30px;
+
+      h4 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 16px;
+      }
+
+      .description-box {
+        min-height: 100px;
+        padding: 15px;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.statistics {
+  margin-top: 20px;
+
+  h4 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .charts {
+    display: flex;
+    gap: 20px;
+
+    .chart-item {
+      flex: 1;
+
+      h5 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .pie-chart,
+      .bar-chart {
+        height: 200px;
+        border: 1px solid #eee;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+</style>
