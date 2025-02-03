@@ -17,10 +17,10 @@ We demonstrate **SliceGXQ**, an end-to-end declarative-style system that support
 
 Click on the image below to watch the demonstration video：
 
-[![Watch the video](https://img.youtube.com/vi/gJA2nb_ue6A/0.jpg)](https://www.youtube.com/watch?v=gJA2nb_ue6A)
+[![Watch the video](https://img.youtube.com/vi/gJA2nb_ue6A/0.jpg)](https://youtu.be/choAyp-pkYA)
 
 Click the link directly：  
-[🔗 Watch the demo video ](https://www.youtube.com/watch?v=gJA2nb_ue6A)
+[🔗 Watch the demo video ](https://youtu.be/choAyp-pkYA)
 
 ---
 
