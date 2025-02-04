@@ -6,7 +6,7 @@ This repository contains our paper, demo video link and the source code of the f
 ---
 
 Graph Neural Networks **(GNNs)** have proven effective in graph-learning tasks such as node classification. However, their "black-box" nature complicates understanding their decision-making process. Existing explainability methods primarily focus on explaining the final output of a **GNN** in a static, one-time manner, leaving a gap in providing detailed, progressive insights into how the **GNN** interacts with data throughout the inference process. Users are typically interested in exploring how **GNNs** derive classification results through interaction with their internal layers. Furthermore, they may prioritize certain categories of explanations over others based on domain-specific requirements. Manually handling all these demands is cumbersome, highlighting the need for a declarative wrapper that enables users to customize "explanatory queries", i.e., queries to generate more flexible and specific explanations.
-We demonstrate **SliceGXQ**, an end-to-end declarative-style system that supports **SPARQL-like** explanatory queries, designed to facilitate interactive, layer-wise GNN explanations. In particular, **SliceGXQ** highlights **(1)** a feature-rich interactive graphical user interface with configurable options (e.g., **GNN** model selection, query mode, and explanation settings); **(2)** a lightweight SPARQL syntax parser that allows users to express their query needs for generating and accessing explanations; and **(3)** a layer-specific explanation generation algorithm that delivers in-depth insights tailored to the user’s query. Putting them together, **SliceGXQ** demonstrates its practical utility in real-world applications, particularly in **GNN** model debugging and diagnosis, offering a powerful tool for understanding the inner workings of GNNs through layer-wise explanations. Our demonstration video is at [https://youtu.be/choAyp-pkYA].
+We demonstrate **SliceGXQ**, an end-to-end declarative-style system that supports **SPARQL-like** explanatory queries, designed to facilitate interactive, layer-wise GNN explanations. In particular, **SliceGXQ** highlights **(1)** a feature-rich interactive graphical user interface with configurable options (e.g., **GNN** model selection, query mode, and explanation settings); **(2)** a lightweight SPARQL syntax parser that allows users to express their query needs for generating and accessing explanations; and **(3)** a layer-specific explanation generation algorithm that delivers in-depth insights tailored to the user’s query. Putting them together, **SliceGXQ** demonstrates its practical utility in real-world applications, particularly in **GNN** model debugging and diagnosis, offering a powerful tool for understanding the inner workings of GNNs through layer-wise explanations. Our demonstration video is at [https://youtu.be/wy_LUnpoHMY].
 
 ![screenshot](screenshot.png)
 
@@ -17,10 +17,10 @@ We demonstrate **SliceGXQ**, an end-to-end declarative-style system that support
 
 Click on the image below to watch the demonstration video：
 
-[![Watch the video](https://img.youtube.com/vi/gJA2nb_ue6A/0.jpg)](https://youtu.be/choAyp-pkYA)
+[![Watch the video](https://img.youtube.com/vi/gJA2nb_ue6A/0.jpg)](https://youtu.be/wy_LUnpoHMY)
 
 Click the link directly：  
-[🔗 Watch the demo video ](https://youtu.be/choAyp-pkYA)
+[🔗 Watch the demo video ](https://youtu.be/wy_LUnpoHMY)
 
 ---
 
