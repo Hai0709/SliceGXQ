@@ -1,7 +1,7 @@
 # Declarative Explanations for Graph Neural Networks: A Demonstration
 
 This repository contains our paper, demo video link and the source code of the front-end and back-end used in our demo paper: 
-**Declarative Explanations for Graph Neural Networks: A Demonstration**, SIGMOD(demo) 2025, by Haitong Tang, Tingting Zhu, Yinghui Wu, Arijit Khan, Tingyang Chen, Xiangyu Ke, Yunjun Gao
+**Declarative Explanations for Graph Neural Networks: A Demonstration**, by Haitong Tang, Yinghui Wu, Arijit Khan, Tingting Zhu, Tingyang Chen, Xiangyu Ke, Yunjun Gao
 
 ---
 
